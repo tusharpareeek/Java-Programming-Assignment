@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class NumberToWordsConverter {
+public class NumberToWords {
     private static final String[] BELOW_TWENTY = {
         "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", 
         "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", 
