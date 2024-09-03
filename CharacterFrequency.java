@@ -1,5 +1,5 @@
 
-public class CharacterFrequencyCompressor {
+public class CharacterFrequency {
     public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         System.out.println("Enter a string of lowercase English letters:");
@@ -17,7 +17,7 @@ public class CharacterFrequencyCompressor {
         
         StringBuilder result = new StringBuilder();
         int n = s.length();
-        int count = 1;  // Initialize count to 1 for the first character
+        int count = 1;  
         
         for (int i = 1; i < n; i++) {
             if (s.charAt(i) == s.charAt(i - 1)) {
